@@ -1,0 +1,16 @@
+Fumla is a Fuse module written in Perl for Joomla
+An alternative name could be JoomlaFS
+
+It allows to create and edit articles with scripts
+
+The module relies on WWW::Mechanize to access the website
+
+
+#	Usage: fumla.pl URL mount_point
+#
+#	URL is pointing to a Joomla website and can be of the following forms
+#		http://joomla.eg/administrator
+#		https://joomla.eg/administrator/
+#		https://fumla@joomla.eg/administrator
+#		https://fumla:passwd@joomla.eg/administrator/
+
